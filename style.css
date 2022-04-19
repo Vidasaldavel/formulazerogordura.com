@@ -27,11 +27,15 @@ body {
 }
 
 .black {
-	background-color: black;
+	background-color: DarkGreen;
 	padding: 10px;
 	text-align: center;
 	border-radius: 20px;
 	box-shadow: 0 0 10px 2px;
+	border-top-color: #FFFF00;
+	border-right-color: #FFFF00;
+	border-bottom-color: #FFFF00;
+	border-left-color: #FFFF00;
 }
 
 .answer {
@@ -44,8 +48,8 @@ body {
 	border-radius: 10px;
 	padding: 5px 10px;
 	font-size: 30px;
-	background-color: #f7ce6a;
-	outline: none;
+	background-color: #DAA520;
+	outline:none;
 	color: black;
 	text-decoration: none;
 }
