@@ -1,7 +1,5 @@
-
-
 * {
-  font-family: helvetica, arial, sans-serif;
+	font-family: helvetica, arial, sans-serif;
 }
 
 body {
@@ -191,12 +189,6 @@ tr {
   max-width: 449px;
 }
 
-@media (max-width: 768px) {
-  .video-player {
-    margin-top: 0 !important;
-  }
-}
-
 .a-btn {
       text-decoration: none;
       -webkit-font-smoothing: antialiased;
@@ -282,4 +274,21 @@ tr {
  left: 0;
  width: 100%;
  height: 100%;
+}
+.linha{
+  display: flex;
+  flex-flow: row wrap;
+  padding:10px; #opcional
+}
+
+.coluna-50 {
+  width: 33%;
+}
+
+.coluna-33 {
+   width: 33%;
+}
+
+.coluna-20 {
+   width: 33%;
 }
